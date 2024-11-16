@@ -3,20 +3,112 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Cyber Studios</title>
+  <meta name="description" content="Cyber Studios - Creating immersive video games with passion and innovation.">
+  <title>Cyber Studios - Game Development</title>
+  <link rel="stylesheet" href="home.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Agdasima:wght@400;700&family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
 </head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-EE1VP7W6HK"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-EE1VP7W6HK');
-</script>
-
 <body>
-  <h1>Cyber Studios</h1>
+
+    <!-- Navbar Section -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <img src="images/studio-image.png" style="height:60px; width:60px;"> 
+            </div>
+            <ul class="nav-links">
+                <li><a href="#info">Info</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#team">Contact</a></li>
+                <li><a href="algfish31.github.io">Algfish31.com</a></li>
+                <li><a href=""> </a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Cyber Studios</h2>
+        <p style="font-family: 'Pixelify Sans';">Doing gaming the Cyber way.</p>
+    </section>
+
+    <!-- Info Section -->
+    <section id="info" class="info">
+        <div class="info-text">
+            <h2>About Us</h2>
+            <p>Welcome to Cyber Studios. We create games that are free to everyone
+              Our games are fun for everybody of all ages and all kinds.
+              Make sure to check out our games and view a new imagination!
+            </p>
+        </div>
+        <div class="info-image">
+            <img src="images/studio-image.png" alt="Studio Image">
+        </div>
+    </section>
+
+    <!-- Games Section -->
+    <section id="games" class="games">
+        <h2>Our Games</h2>
+        <div class="game-cards">
+            <div class="game-card">
+                <img src="game1.jpg" alt="• • •">
+                <h3>Click the Button</h3>
+                <p>A simple clicker game, as everyone thinks, but there is something else...</p>
+                <a href="https://algfish31.github.io/clickTheButton/" class="btn">Play Now</a>
+            </div>
+            <div class="game-card">
+                <img src="game2.jpg" alt="• • •">
+                <h3>Raining Apples</h3>
+                <p>Try and catch as many apples as you can, before you lose your health!</p>
+                <a href="https://algfish31.github.io/rainingApples/raining-apples.html" class="btn">Play Now</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+     <!--
+    <section id="team" class="team">
+        <h2>Meet the Team</h2>
+        <div class="team-members">
+            <div class="team-member">
+                <h3>Algfish31</h3>
+                <p>Lead Programmer</p>
+            </div>
+            <div class="team-member">
+                <h3>Algfish31</h3>
+                <p>Lead Programmer</p>
+            </div>
+            <div class="team-member">
+                <h3>Algfish31</h3>
+                <p>Lead Programmer</p>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <p>We’d love to hear from you! Whether it’s feedback or collaboration, feel free to reach out to us.</p>
+        <form action="https://submit-form.com/0stWnNHrE" method="POST">
+            <input type="text" name="name" placeholder="Your Name" required>
+            <input type="email" name="email" placeholder="Your Email" required>
+            <textarea name="message" placeholder="Your Message" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <div class="social-links">
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+            <a href="" target="_blank"></a>
+        </div>
+        <p>&copy; 2024 Cyber Studios. All rights reserved.</p>
+    </footer>
+
 </body>
 </html>

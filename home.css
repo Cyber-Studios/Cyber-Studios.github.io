@@ -1,0 +1,255 @@
+/* Global Styles */
+body {
+  font-family: "Agdasima", 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #111;
+  color: #f0f0f0;
+  line-height: 1.6;
+}
+
+h2 {
+  font-family: "Pixelify Sans", "Agdasima", "Arial", sans-serif;
+  font-size: 2.5em;
+  color: #f7d600; /* Yellow */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.1em;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  background-color: #222;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1000;
+}
+
+.navbar .logo img {
+  border-radius: 10%;
+}
+
+.navbar .logo h1 {
+  color: #f7d600;
+  margin: 0;
+  font-size: 1.8em;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  margin: 0;
+}
+
+.nav-links li {
+  margin-left: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #f7d600;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-links li a:hover {
+  color: #fff;
+}
+
+/* Hero Section */
+.hero {
+  background-color: #222;
+  color: #f7d600;
+  padding: 100px 20px;
+  text-align: center;
+  height: 80vh;
+}
+
+.hero h2 {
+  font-size: 3em;
+  margin-bottom: 10px;
+}
+
+.hero p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+/* Info Section */
+.info {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 20px;
+  background-color: #333;
+}
+
+.info-text {
+  flex: 1;
+  padding-right: 20px;
+  font-size: 18px;
+}
+
+.info-image img {
+  max-width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+  max-height: 400px;
+  object-fit: cover;
+}
+
+/* Games Section */
+.games {
+  background-color: #222;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.game-cards {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.game-card {
+  background-color: #333;
+  border-radius: 8px;
+  width: 280px;
+  padding: 20px;
+  text-align: center;
+}
+
+.game-card img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+.game-card h3 {
+  color: #f7d600;
+  margin-top: 15px;
+}
+
+.game-card p {
+  margin-top: 10px;
+  font-size: 1.1em;
+}
+
+.game-card .btn {
+  background-color: #f7d600;
+  color: #222;
+  padding: 10px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  margin-top: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.game-card .btn:hover {
+  background-color: #ffb800;
+}
+
+/* Team Section */
+.team {
+  background-color: #333;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.team-member {
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+  width: 250px;
+  text-align: center;
+}
+
+.team-member img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.team-member h3 {
+  color: #f7d
+}
+
+/* Contact Section */
+.contact {
+  background-color: #222;
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  margin: 0 auto;
+  background-color: #444;
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.contact form input,
+.contact form textarea {
+  width: 100%;
+  padding: 12px;
+  margin: 10px 0;
+  border-radius: 5px;
+  border: none;
+  background-color: #555;
+  color: #f0f0f0;
+  font-family: "Agdasima", 'Arial', sans-serif;
+  font-size: 16px;
+}
+
+.contact form button {
+  background-color: #f7d600;
+  color: #222;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact form button:hover {
+  background-color: #ffffff;
+}
+
+/* Footer */
+footer {
+  background-color: #222;
+  color: #f7d600;
+  padding: 30px 20px;
+  text-align: center;
+}
+
+footer .social-links a {
+  color: #f7d600;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+footer .social-links a:hover {
+  color: #fff;
+}
